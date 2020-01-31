@@ -1,30 +1,21 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: Janurary 29, 2020
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: I've been wanting to get back into python after writing a rather
+simple scraping script for my work. I've had some courses on udemy for a while. Decided
+to commit to this challenge with the goal of starting work on a project I've thought about for a while.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:**: So far this course is more about the basic principals of programming in general, so I've sped through it. I've built a quick python script to calculate weight loss over a given time.
+WIll probably work on enhancing that as I continue 
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** Included in this repo. (pyproj folder)
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Day 1: Janurary 30, 2020
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Decided I'd convert my python script from yesterday into a quick web page and hopefully host it on github pages
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:**:Had some trouble with CDNs not loading locally. WIll probably spend some time tomorrow configuring IIS on my home machine as I have not done that yet.
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Link to work:** Included in this repo. (weightcalc folder)
 
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
