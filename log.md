@@ -19,3 +19,11 @@ WIll probably work on enhancing that as I continue
 
 **Link to work:** Included in this repo. (weightcalc folder)
 
+### Day 2: Janurary 31, 2020
+
+**Today's Progress**: Continued work on the conversion. Spent some time getting IIS setup so I had a proper local environment. 
+
+**Thoughts:**: IIS fixed my issue with the CDNs, everything working great now.
+
+**Link to work:** Included in this repo. (weightcalc folder)
+
