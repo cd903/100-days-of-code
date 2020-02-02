@@ -27,7 +27,7 @@ WIll probably work on enhancing that as I continue
 
 **Link to work:** Included in this repo. (weightcalc folder)
 
-### Day 3: Janurary 31, 2020
+### Day 3: February, 2020
 
 **Today's Progress**: Continued work on the conversion. All validation finished and a few of the calculation functions are finished. Should be done tomorrow.
 
