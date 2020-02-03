@@ -124,7 +124,7 @@ $(document).ready(function(){
         exercise.removeClass('error-border');
         exercise.removeClass('valid-border');
 
-        if($.isNumeric(exercise.val()) && exercise.val() != 0 && exercise.val() != ''){
+        if($.isNumeric(exercise.val()) && exercise.val() >= 0 && exercise.val() != ''){
             exercise.addClass('valid-border');
             validExercise = true;
             validateFields();
@@ -193,6 +193,11 @@ $(document).ready(function(){
         $('.valid-border').removeClass('valid-border');
         $('.error-border').removeClass('error-border');
         $('.error-msg').remove();
+
+        $('#results').slideUp('slow',function(){
+            $('#results').remove();
+        });
+        
         validWeight = false;
         validGoalWeight = false;
         validCals = false;
@@ -246,8 +251,40 @@ $(document).ready(function(){
 
     // Calcuation function 
     $('#submitBtn').on('click',function(){
+        $(this).prop('disabled',true);
+
+        $('#results').slideUp('slow',function(){
+            $('#results').remove();
+        });
+        
+        currentWeight = $('#currentWeight').val();
+        goalWeight = $('#goalWeight').val();
         tdee = calcTDEE();
         averageBurn = calcDailyBurn();
+        dailyCalsEaten = $('#consumed').val();
+        pound = 3500;
+        totCals = 0;
+        days = 0;
+
+        while(currentWeight > goalWeight) {
+            dailyCalsBurned = parseInt(currentWeight) * parseInt(tdee) + parseInt(averageBurn) - parseInt(dailyCalsEaten);
+            totCals += dailyCalsBurned;
+            Math.round(poundsLost = dailyCalsBurned / pound);
+            currentWeight -= poundsLost;
+            days += 1;
+        }
+
+        html = '<div class="row results-container" id="results">\
+                    <div class="col-12 text-center">\
+                        <span class="loader">It will take you '+days+' days to reach your goal weight.</span>\
+                    </div>\
+                    <div class="col-12 text-center">\
+                        <span class="loader">You will burn '+totCals.toLocaleString()+' calories along the way.</span>\
+                    </div>\
+                </div>';
+        $('#formContainer').append(html);
+        $('#results').slideDown('slow');
+        $(this).prop('disabled',false);
     })
 
 })

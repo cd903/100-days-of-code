@@ -27,11 +27,19 @@ WIll probably work on enhancing that as I continue
 
 **Link to work:** Included in this repo. (weightcalc folder)
 
-### Day 3: February, 2020
+### Day 3: February 01, 2020
 
 **Today's Progress**: Continued work on the conversion. All validation finished and a few of the calculation functions are finished. Should be done tomorrow.
 
 **Thoughts:**: Nothing fairly new here, trying some different approaches to how I normally handle validation to see if I like it better.
 
 **Link to work:** Included in this repo. (weightcalc folder)
+
+### Day 4: February 02, 2020
+
+**Today's Progress**: 
+
+**Thoughts:**: 
+
+**Link to work:** 
 
