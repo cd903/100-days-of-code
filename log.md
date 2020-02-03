@@ -37,9 +37,9 @@ WIll probably work on enhancing that as I continue
 
 ### Day 4: February 02, 2020
 
-**Today's Progress**: 
+**Today's Progress**: Finished py to js app, setup a repo for github pages. Spend the remainer of the time determining what I'd do going forward
 
-**Thoughts:**: 
+**Thoughts:**: Setting up github pages was really easy and is definitely a nice way to prototype different projects. Will definitely be using this feature in the future.
 
-**Link to work:** 
+**Link to work:** https://cd903.github.io/
 
